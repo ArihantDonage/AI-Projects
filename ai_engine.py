@@ -26,7 +26,7 @@ bm25 = BM25Okapi(tokenized)
 
 # Initialize Groq LLM (Ensure GROQ_API_KEY is in your environment variables)
 llm = ChatGroq(
-    api_key="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", # Add your key here
+    api_key=" ", # Add your key here
     temperature=0.1,
     model_name="llama-3.3-70b-versatile",
     max_tokens=2048
